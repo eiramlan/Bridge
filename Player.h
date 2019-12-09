@@ -4,7 +4,7 @@
 //  Bridge
 //
 //  Created by Effirul I Ramlan on 06/12/2019.
-//  Copyright © 2019 Effirul I Ramlan. All rights reserved.
+//  Copyright Â© 2019 Effirul I Ramlan. All rights reserved.
 //
 
 #ifndef Player_h
@@ -27,7 +27,7 @@ struct Card {
 class Player {
 private:
 	SmartVector<Card> hand_;	// each player has 13 random cards
-	Card played_;	// card that is play during a turn
+	Card played_;	// card that is played during a turn
 
 public:
 	Player(SmartVector<Card> c);	// custom constructor for Player
